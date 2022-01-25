@@ -1,0 +1,23 @@
+﻿<Window x:Class="excelConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:excelConverter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Execute File" HorizontalAlignment="Left" Margin="316,65,0,0" VerticalAlignment="Top" Height="55" Width="135" Click="Button_Click"/>
+        <TextBlock x:Name="executeNotify" HorizontalAlignment="Left" Margin="338,178,0,0"  TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+        <Button Content="Combine Files" HorizontalAlignment="Left" Margin="68,65,0,0" VerticalAlignment="Top" Height="55" Width="135" Click="Button_Click_1"/>
+        <TextBlock x:Name="combineNotify" HorizontalAlignment="Left" Margin="81,166,0,0"  TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+        <Button Content="Merge Data" HorizontalAlignment="Left" Margin="573,65,0,0" VerticalAlignment="Top" Height="55" Width="135" Click="Button_Click_3"/>
+        <TextBlock x:Name="mergeNotify" HorizontalAlignment="Left" Margin="592,169,0,0"  TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="338,284,0,0" VerticalAlignment="Top" Height="48" Width="94" Click="Button_Click_2"/>
+
+
+    </Grid>
+</Window>
